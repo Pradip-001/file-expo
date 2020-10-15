@@ -23,7 +23,7 @@ const content = {
 };
 
 function App() {
-  return <FileExplorer content={content} depth={10} />;
+  return <FileExplorer content={content} depth={25} />;
 }
 
 export default App;
