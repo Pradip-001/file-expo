@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-
+import { Button } from "@chakra-ui/core";
 export function Folder({ name, children, ...props }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      <button onClick={() => setIsOpen(!isOpen)}>
+      <Button onClick={() => setIsOpen(!isOpen)}>
         {name} {isOpen ? "-" : "+"}{" "}
-      </button>
+      </Button>
       {isOpen && children}
     </>
   );
