@@ -7,7 +7,7 @@ export function FileExplorer({ content, depth, ...props }) {
       style={{
         display: "flex",
         flexDirection: "column",
-        width: "300px",
+        width: "248px",
         marginLeft: depth + "px",
       }}
     >
